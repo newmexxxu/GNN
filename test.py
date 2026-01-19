@@ -1,8 +1,8 @@
 import torch
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-from GAT.dataset import get_dataloaders
-from GAT.model import GNNModel  # 引用新模型
+from GNN.dataset import get_dataloaders
+from GNN.model import GNNModel  # 引用新模型
 import numpy as np
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

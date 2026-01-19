@@ -1,8 +1,8 @@
 import torch
 import os
 import matplotlib.pyplot as plt
-from GAT.dataset import get_dataloaders
-from GAT.model import GNNModel
+from GNN.dataset import get_dataloaders
+from GNN.model import GNNModel
 
 # --- GIN 超参数 ---
 EPOCHS = 1000
