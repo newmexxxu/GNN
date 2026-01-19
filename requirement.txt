@@ -1,0 +1,22 @@
+# --- 核心深度学习框架 ---
+# 注意：PyTorch 建议通过官网命令单独安装，避免版本混乱
+torch>=2.5.1
+torchvision>=0.20.1
+
+# --- 图神经网络库 (PyG) ---
+torch-geometric>=2.6.0
+# 以下依赖包建议使用 -f 链接安装，直接pip install可能会编译失败
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+
+# --- 化学分子处理 ---
+rdkit>=2023.9.5
+
+# --- 数据处理与绘图 ---
+numpy
+pandas
+matplotlib
+scikit-learn
+networkx
